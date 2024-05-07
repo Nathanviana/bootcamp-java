@@ -2,11 +2,11 @@ package metodos;
 
 public class metodos {
 
-	public class metodos {
+	
 		
 		public double somar(int num1, int num2){
 			//LOGICA - FINALIDADE DO MÉTODO
-			return ... ;
+			return somar;
 		}
 		
 		public void imprimir(String texto){
@@ -38,6 +38,6 @@ public class metodos {
 		public void gravarCliente(Cliente cliente){}
 		//ou
 		public void gravar(Cliente cliente){}
-	}
+	
 
 }
