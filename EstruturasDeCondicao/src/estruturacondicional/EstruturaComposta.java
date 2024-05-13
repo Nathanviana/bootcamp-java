@@ -1,7 +1,7 @@
 package estruturacondicional;
 
 import java.util.Scanner;
-
+                  
 public class EstruturaComposta {
 
 	public static void main(String[] args) {
