@@ -1,17 +1,33 @@
 package EstruturasExcepcionais;
 
-import java.util.Locale;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class TryCatch {
 
 	public static void main(String[] args) {
 		
-		Scanner text = new Scanner(System.in).useLocale(Locale.US);
-		
-		System.out.println("Digite seu nome: ");
-		String nome = scanner.next();
-		
+		Scanner sc = new Scanner(System.in);
+		String nome = "";
+		int idade = 0;
+		double altura = 0;
+
+		try {
+			System.out.println("Digite seu nome");
+			nome = sc.next();
+
+			System.out.println("Idade");
+			idade = sc.nextInt();
+
+			System.out.println("Altura");
+			altura = sc.nextDouble();
+
+			System.out.println("Nome: " + nome + "\nIdade: " + idade + "\naltura: " + altura);
+
+		} catch (InputMismatchException e) {
+			System.out.println("O campo só aceita números!");
+			
+		sc.close();
 		
 		
 	}
