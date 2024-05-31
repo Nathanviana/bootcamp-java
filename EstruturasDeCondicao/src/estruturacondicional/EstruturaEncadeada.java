@@ -18,6 +18,8 @@ public class EstruturaEncadeada {
 			System.out.println("prova final");
 		else
 			System.out.println("vc não passou de ano");
+		
+		tx.close();
 	}
 
 }

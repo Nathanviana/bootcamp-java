@@ -18,6 +18,7 @@ public class EstruturaSimples {
 		System.out.println("Seu saldo atual é de R$" + saldo);
 		
 
+		sc.close();
 	}
 
 	

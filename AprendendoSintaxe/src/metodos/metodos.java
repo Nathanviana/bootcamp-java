@@ -6,7 +6,7 @@ public class metodos {
 		
 		public double somar(int num1, int num2){
 			//LOGICA - FINALIDADE DO MÉTODO
-			return somar;
+			//return somar;
 		}
 		
 		public void imprimir(String texto){
@@ -29,7 +29,7 @@ public class metodos {
 		public void calcularEnviar(){
 			//um método deve representar uma única responsabilidade
 		}
-		public void gravarCliente(String nome, String cpf, Integer telefone, ....){
+		public void gravarCliente(String nome, String cpf, Integer telefone){
 			//este método tem a finalidade de gravar
 			//informações de um cliente, por que não criar
 			//um objeto cliente e passar como parâmetro ?

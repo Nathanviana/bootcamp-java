@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class TryCatch {
 
 	public static void main(String[] args) {
-		
+
 		Scanner sc = new Scanner(System.in);
 		String nome = "";
 		int idade = 0;
@@ -26,10 +26,10 @@ public class TryCatch {
 
 		} catch (InputMismatchException e) {
 			System.out.println("O campo só aceita números!");
-			
-		sc.close();
-		
-		
+
+			sc.close();
+
+		}
+
 	}
-		
 }

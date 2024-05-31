@@ -17,6 +17,6 @@ public class EstruturaComposta {
 		else
 			System.out.println("vc não passou de ano");
 
+		texto.close();
 	}
-
 }
