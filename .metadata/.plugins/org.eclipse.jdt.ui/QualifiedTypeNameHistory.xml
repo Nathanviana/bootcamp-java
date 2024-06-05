@@ -4,7 +4,10 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.util.concurrent.ThreadLocalRandom"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="tarefa.ParametrosInvalidosException"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="concessionária.Carros"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.security.AllPermission"/>
+    <fullyQualifiedTypeName name="escola.Aluno"/>
 </qualifiedTypeNameHistroy>
