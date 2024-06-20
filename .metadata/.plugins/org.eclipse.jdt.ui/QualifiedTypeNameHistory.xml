@@ -10,4 +10,7 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.security.AllPermission"/>
     <fullyQualifiedTypeName name="escola.Aluno"/>
+    <fullyQualifiedTypeName name="iphone.ReprodutorMusical"/>
+    <fullyQualifiedTypeName name="iphone.Telefone"/>
+    <fullyQualifiedTypeName name="iphone.Navegador"/>
 </qualifiedTypeNameHistroy>
