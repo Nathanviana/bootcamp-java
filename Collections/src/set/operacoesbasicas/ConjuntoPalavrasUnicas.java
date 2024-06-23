@@ -1,4 +1,4 @@
-package operacoes.basicas.set;
+package set.operacoesbasicas;
 
 import java.util.HashSet;
 import java.util.Set;
