@@ -36,4 +36,20 @@ public class Filme extends Video{
         String info = String.format("Filme %s, (audio %s, legenda %s)", getTitulo(), audio, legenda);
         return info;
     }
+
+    public String getAudio() {
+        return audio;
+    }
+
+    public void setAudio(String audio) {
+        this.audio = audio;
+    }
+
+    public String getLegenda() {
+        return legenda;
+    }
+
+    public void setLegenda(String legenda) {
+        this.legenda = legenda;
+    }
 }

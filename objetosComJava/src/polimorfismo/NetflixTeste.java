@@ -8,6 +8,11 @@ public class NetflixTeste {
 
         filme.play("português");
 
+        System.out.println(" ");
+
+        Serie sr = new Serie("LA", 2, 10);
+        sr.play(2, 10);
+
     }
 
 }
