@@ -34,6 +34,8 @@ public class Array {
 
         System.out.println("Array padrão: " + Arrays.toString(nomes));
 
+
+
     }
 
 }
