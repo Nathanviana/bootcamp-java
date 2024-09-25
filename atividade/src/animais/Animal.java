@@ -2,11 +2,9 @@ package animais;
 
 public class Animal {
 
-    // crie uma classe animal com os atributos nome e idade
     private String nome;
     private int idade;
 
-    // crie uym metodo get e set para cada atributo
     public String getNome() {
         return nome;
     }
@@ -23,7 +21,6 @@ public class Animal {
         this.idade = idade;
     }
 
-    // crie um metodo abstrato emitirSom
     public void emitirSom() {
         System.out.println("O animal faz um som");
     }
