@@ -1,6 +1,6 @@
 package animais;
 
-public class Animal {
+public abstract class Animal {
 
     private String nome;
     private int idade;
@@ -21,9 +21,7 @@ public class Animal {
         this.idade = idade;
     }
 
-    public void emitirSom() {
-        System.out.println("O animal faz um som");
-    }
+    public abstract void emitirSom();
 
 
 }
