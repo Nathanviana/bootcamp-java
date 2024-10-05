@@ -1,13 +1,14 @@
 package estruturasDados.pilha;
 
-
 import java.util.Stack;
 
 public class PilhasTeste {
 
     public static void main(String[] args) {
 
-        Stack p1 = new Stack();
+        //Stack<Tipo> nome = new Stack<>();
+
+        Stack<Integer> p1 = new Stack<>();
 
         p1.push(5);
         p1.push(3);
