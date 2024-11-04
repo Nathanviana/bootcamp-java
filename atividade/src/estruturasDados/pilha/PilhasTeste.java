@@ -29,7 +29,16 @@ public class PilhasTeste {
         p1.pop();
         p1.push(1);
 
-        System.out.println(p1);
+        System.out.println("print com stack" + p1);
+
+
+        Pilha p = new Pilha(new int[10]);
+        p.push(5);
+        p.push(3);
+        p.pop();
+        p.push(2);
+        p.push(8);
+        p.espiar();
 
     }
 
